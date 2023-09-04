@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>YouTube Clone</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="icon" href="favicon/youtube_favicon.png">
+        <link rel="stylesheet" href="styles/video.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="left-section">
+                <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="">
+                <div class="youtube-logo-container">
+                    <img class="youtube-logo" src="icons/youtube-logo.svg" alt="">
+                    <div class="youtube-india">IN</div>
+                    <div class="tooltip">YouTube Home</div>
+                </div>
+            </div>
+            <div class="middle-section">
+                <input class="search" type="text" placeholder="Search">
+                <button class="search-button">
+                    <img class="search-icon" src="icons/search.svg" alt="">
+                    <div class="tooltip">Search</div>
+                </button>
+                <button class="voice-button">
+                    <img class="voice-icon" src="icons/voice-search-icon.svg" alt="">
+                    <div class="tooltip">Search with your voice</div>
+                </button>
+            </div>
+            <div class="right-section">
+                <div class="upload-icon-container">
+                    <img class="upload-icon" src="icons/upload.svg" alt="">
+                    <div class="tooltip">Create</div>
+                </div>
+                <div class="notification-container">
+                    <img class="notification-icon" src="icons/notifications.svg" alt="">
+                    <div class="notification-count">9+</div>
+                    <div class="tooltip">Notifications</div>
+                </div>
+                <img class="profile-icon" src="icons/profile.jpg" alt="">
+            </div>
+        </header>
+        <nav class="sidebar">
+            <div class="sidebar-link">
+                <img src="icons/home.svg" alt="">
+                <div>Home</div>
+            </div>
+            <div class="sidebar-link">
+                <img class="shorts" src="icons/shorts.svg" alt="">
+                <div>Shorts</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/subscriptions.svg" alt="">
+                <div>Subscriptions</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/library.svg" alt="">
+                <div>Library</div>
+            </div>
+        </nav>
+        <nav class="video-topics">
+            <p class="all" data-tooltip="All">All</p>
+            <p data-tooltip="Music">Music</p>
+            <p data-tooltip="News">News</p>
+            <p data-tooltip="Cooking">Cooking</p>
+            <p data-tooltip="Dance">Dance</p>
+            <p data-tooltip="Food">Food</p>
+            <p data-tooltip="Lecture">Lecture</p>
+            <p data-tooltip="Entertainment">Entertainment</p>
+            <p data-tooltip="Chandrayaan-3">Chandrayaan-3</p>
+            <p data-tooltip="Live">Live</p>
+            <p data-tooltip="Recently uploaded">Recently uploaded</p>
+            <p data-tooltip="Watched">Watched</p>
+            <p data-tooltip="New to you">New to you</p>
+        </nav>
+        <main>
+            <section class="video-grid">
+                <div class="video-preview">
+                    <div class="thumbnail-bottom">
+                        <a href="https://www.youtube.com/watch?v=dUhvvoVtpVE&t=16s"><img class="thumbnail" src="thumbnail/thumbnail-1.webp" alt=""></a>
+                        <div class="video-duration">8:21</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="profile">
+                            <a href="https://www.youtube.com/@elonmuskrewind"><img class="channel-profile" src="channel-profile/channel_profile_1.jpg" alt=""></a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://www.youtube.com/watch?v=dUhvvoVtpVE&t=16s"><p class="video-title">Elon Musk MOST SHOCKING INTERVIEW With AI!</p></a>
+                            <a href="https://www.youtube.com/@elonmuskrewind"><p class="channel-name">Elon Musk Rewind</p></a>
+                            <p class="video-stats">1 million views <strong>&#183;</strong>  9 months ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-bottom">
+                        <a href="https://youtu.be/2aGZyYFx8m0"><img class="thumbnail" src="thumbnail/thumbnail-2.webp" alt=""></a>
+                        <div class="video-duration">7:08</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="profile">
+                            <a href="https://www.youtube.com/@BEwithSADHGURU"><img class="channel-profile" src="channel-profile/channel_profile_2.jpg" alt=""></a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://youtu.be/2aGZyYFx8m0"><p class="video-title">RATAN TATA & SADHGURU Discussing What Exactly Is Missing In INDIA? RARE VIDEO! | THINK School</p></a>
+                            <a href="https://www.youtube.com/@BEwithSADHGURU"><p class="channel-name">BEwithSADHGURU</p></a>
+                            <p class="video-stats">2.4 million views <strong>&#183;</strong> 1 year ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-bottom">
+                        <a href="https://youtu.be/vJefOB8kec8"><img class="thumbnail" src="thumbnail/thumbnail-3.webp" alt=""></a>
+                        <div class="video-duration">22:37</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="profile">
+                            <a href="https://www.youtube.com/@dhruvrathee"><img class="channel-profile" src="channel-profile/channel_profile_3.jpg" alt=""></a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://youtu.be/vJefOB8kec8"><p class="video-title">The Truth about Artificial Intelligence and ChatGPT | Dhruv Rathee</p></a>
+                            <a href="https://www.youtube.com/@dhruvrathee"><p class="channel-name">Dhruv Rathee</p></a>
+                            <p class="video-stats">7M views <strong>&#183;</strong> 4 weeks ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-bottom">
+                        <a href="https://youtu.be/a9__D53WsUs"><img class="thumbnail" src="thumbnail/thumbnail-4.webp" alt="">
+                            <div class="video-duration">3:12</div></a>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="profile">
+                            <a href="https://www.youtube.com/@amazonwebservices"><img class="channel-profile" src="channel-profile/channel_profile_4.jpg" alt=""></a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://youtu.be/a9__D53WsUs"><p class="video-title">What is AWS? | Amazon Web Services</p></a>
+                            <a href="https://www.youtube.com/@amazonwebservices"><p class="channel-name">Amazon Web Services</p></a>
+                            <p class="video-stats">1 million views <strong>&#183;</strong> 3 years ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-bottom">
+                        <a href="https://youtu.be/EOB3vwnV1eQ"><img class="thumbnail" src="thumbnail/thumbnail-5.webp" alt=""></a>
+                        <div class="video-duration">1:48</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="profile">
+                            <a href="https://www.youtube.com/@yingcartoonist"><img class="channel-profile" src="channel-profile/channel_profile_5.jpg" alt=""></a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://youtu.be/EOB3vwnV1eQ"><p class="video-title">Sam Feeling Luck &#127808;</p></a>
+                            <a href="https://www.youtube.com/@yingcartoonist"><p class="channel-name">Justin Ying</p></a>
+                            <p class="video-stats">1.6 million views <strong>&#183;</strong> 1 year ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-bottom">
+                        <a href="https://youtu.be/6MWTTiNhu7I"><img class="thumbnail" src="thumbnail/thumbnail-6.webp" alt=""></a>
+                        <div class="video-duration">11:00</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="profile">
+                            <a href="https://www.youtube.com/@CUBASTIC"><img class="channel-profile" src="channel-profile/channel_profile_6.jpg" alt=""></a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://youtu.be/6MWTTiNhu7I"><p class="video-title">Solving the huge Rubik's Cube 15X15 in record time</p></a>
+                            <a href="https://www.youtube.com/@CUBASTIC"><p class="channel-name">CUBASTIC</p></a>
+                            <p class="video-stats">47M views <strong>&#183;</strong> 3 years ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-bottom">
+                        <a href="https://youtu.be/OFeTWrQanIM?si=kuPaXc_xdB_1bRxA"><img class="thumbnail" src="thumbnail/thumbnail-7.webp" alt=""></a>
+                        <div class="video-duration">17:05</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="profile">
+                            <a href="https://www.youtube.com/@WildBrainBananas"><img class="channel-profile" src="channel-profile/channel_profile_7.jpg" alt=""></a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://youtu.be/OFeTWrQanIM?si=kuPaXc_xdB_1bRxA"><p class="video-title">Taking Flight | Jungle Beat | Cartoons for Kids | WildBrain Bananas</p></a>
+                            <a href="https://www.youtube.com/@WildBrainBananas"><p class="channel-name">WildBrain Bananas</p></a>
+                            <p class="video-stats">1.1M views <strong>&#183;</strong> 3 months ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-bottom">
+                        <a href="https://youtu.be/OFeTWrQanIM?si=kuPaXc_xdB_1bRxA"><img class="thumbnail" src="thumbnail/thumbnail-8.jpg" alt=""></a>
+                        <div class="video-duration">1:19:38</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="profile">
+                            <a href="https://www.youtube.com/@indianexpress"><img class="channel-profile" src="channel-profile/channel_profile_8.jpg" alt=""></a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://youtu.be/OFeTWrQanIM?si=kuPaXc_xdB_1bRxA"><p class="video-title">Watch: How Chandrayaan-3 Took Off From Sriharikota | Chandrayaan 3 Launch Video</p></a>
+                            <a href="https://www.youtube.com/@indianexpress"><p class="channel-name">The Indian Express</p></a>
+                            <p class="video-stats">4.1M views <strong>&#183;</strong> 1 months ago</p>
+                        </div>
+                    </div> 
+                </div>
+                    <div class="video-preview">
+                        <div class="thumbnail-bottom">
+                            <a href="https://youtu.be/H-2ddhMO0eU?si=3YrZ9_NScxojc7Gw"><img class="thumbnail" src="thumbnail/thumbnail-9.jpg" alt="">
+                                <div class="video-duration">9:53</div></a>
+                        </div>
+                        <div class="video-info-grid">
+                            <div class="profile">
+                                <a href="https://www.youtube.com/@ChessBaseIndiachannel"><img class="channel-profile" src="channel-profile/channel_profile_9.jpg" alt=""></a>
+                            </div>
+                            <div class="video-info">
+                                <a href="https://youtu.be/H-2ddhMO0eU?si=3YrZ9_NScxojc7Gw"><p class="video-title">Shortest Game of Praggnanandhaa & Magnus Carlsen in World Cup | Finals Game 2</p></a>
+                                <a href="https://www.youtube.com/@ChessBaseIndiachannel"><p class="channel-name">ChessBase India</p></a>
+                                <p class="video-stats">3.3M views <strong>&#183;</strong> 11 days ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-preview">
+                        <div class="thumbnail-bottom">
+                            <a href="https://youtu.be/07d2dXHYb94?si=oRJdfvcweV9mqwlx"><img class="thumbnail" src="thumbnail/thumbnail-10.jpg" alt=""></a>
+                            <div class="video-duration">4:05</div>
+                        </div>
+                        <div class="video-info-grid">
+                            <div class="profile">
+                                <a href="https://www.youtube.com/@SoutheasternGuideDogs"><img class="channel-profile" src="channel-profile/channel_profile_10.webp" alt=""></a>
+                            </div>
+                            <div class="video-info">
+                                <a href="https://youtu.be/07d2dXHYb94?si=oRJdfvcweV9mqwlx"><p class="video-title">Pip | A Short Animated Film by Southeastern Guide Dogs</p></a>
+                                <a href="https://www.youtube.com/@SoutheasternGuideDogs"><p class="channel-name">Southeastern Guide Dogs</p></a>
+                                <p class="video-stats">471M views <strong>&#183;</strong>  4 years ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-preview">
+                        <div class="thumbnail-bottom">
+                            <a href="https://youtu.be/e0cD5UWbNqs?si=H7QjIBwYVytb2d0T"><img class="thumbnail" src="thumbnail/thumbnail-11.jpg" alt=""></a>
+                            <div class="video-duration">9:24</div>
+                        </div>
+                        <div class="video-info-grid">
+                            <div class="profile">
+                                <a href="https://www.youtube.com/@Quantastic"><img class="channel-profile" src="channel-profile/channel_profile_11.webp" alt=""></a>
+                            </div>
+                            <div class="video-info">
+                                <a href="https://youtu.be/e0cD5UWbNqs?si=H7QjIBwYVytb2d0T"><p class="video-title">Cute Art Ideas That Will Boost Your Serotonin ▶4</p></a>
+                                <a href="https://www.youtube.com/@Quantastic"><p class="channel-name">Quantastic</p></a>
+                                <p class="video-stats">3.4M views <strong>&#183;</strong>  2 months ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-preview">
+                        <div class="thumbnail-bottom">
+                            <a href="https://youtu.be/e0cD5UWbNqs?si=H7QjIBwYVytb2d0T"><img class="thumbnail" src="thumbnail/thumbnail-12.jpg" alt=""></a>
+                            <div class="video-duration">31:49</div>
+                        </div>
+                        <div class="video-info-grid">
+                            <div class="profile">
+                                <a href="https://www.youtube.com/@AnimalHT"><img class="channel-profile" src="channel-profile/channel_profile_12.jpg" alt=""></a>
+                            </div>
+                            <div class="video-info">
+                                <a href="https://youtu.be/e0cD5UWbNqs?si=H7QjIBwYVytb2d0T"><p class="video-title">Monkey Baby Bon Bon oes to the toilet and plays with Ducklings in the swimming pool</p></a>
+                                <a href="https://www.youtube.com/@AnimalHT"><p class="channel-name">Animal HT</p></a>
+                                <p class="video-stats">380M views <strong>&#183;</strong>  6 months ago</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
